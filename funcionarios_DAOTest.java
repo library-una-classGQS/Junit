@@ -11,13 +11,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import java.sql.ResultSet;
 import java.util.ArrayList;
-/**import DAO.funcionarios_DAO;
-import conexao.Funcionarios;
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.*;
-import java.sql.ResultSet;
-import java.util.ArrayList;
+/**
  *
  * @author dougl
  */
