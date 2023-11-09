@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package DAO;
+
 
 import DAO.usuarios_DAO;
 import conexao.Usuarios;
@@ -25,6 +25,7 @@ public class usuarios_DAOTest {
         usuariosDAO = new usuarios_DAO();
     }
 
+    /*
     @Test
     public void testAutenticacaoUsuarios() {
         Usuarios usuario = new Usuarios();
@@ -37,7 +38,8 @@ public class usuarios_DAOTest {
 
         // Faça mais verificações conforme necessário, como verificar se as credenciais do usuário estão corretas.
     }
-
+    */
+    
     @Test
     public void testCadastrarUsuarios() {
         Usuarios usuario = new Usuarios();

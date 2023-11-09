@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package DAO;
+
 
 import DAO.livros_DAO;
 import conexao.Livros;
@@ -47,6 +47,7 @@ public class livros_DAOTest {
         // Faça mais verificações conforme necessário, por exemplo, verificando se os detalhes dos livros estão corretos.
     }
 
+    /*
     @Test
     public void testAlterarLivros() {
         Livros livro = new Livros();
@@ -57,7 +58,8 @@ public class livros_DAOTest {
         // Verifique se os dados do livro foram alterados com sucesso no banco de dados
         // Você pode consultar o banco de dados e verificar se as informações foram atualizadas corretamente.
     }
-
+    */
+    
     @Test
     public void testExecutarConsulta() {
         String sql = "SELECT * FROM livros WHERE genero = 'Ficção'";

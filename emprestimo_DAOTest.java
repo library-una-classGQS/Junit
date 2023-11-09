@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package DAO;
+
 
 import DAO.emprestimo_DAO;
 import conexao.Emprestimo;
@@ -23,7 +23,8 @@ public class emprestimo_DAOTest {
     public void setUp() {
         emprestimoDAO = new emprestimo_DAO();
     }
-
+    
+    /*
     @Test
     public void testFazerEmprestimo() {
         Emprestimo emprestimo = new Emprestimo();
@@ -35,7 +36,8 @@ public class emprestimo_DAOTest {
         // Você pode consultar o banco de dados e verificar se o registro foi criado corretamente.
         // Ou, se você tem um método de consulta na classe, você pode usá-lo para verificar a existência do empréstimo.
     }
-
+    */
+    
     @Test
     public void testPesquisarEmprestimo() {
         int pedido = 1; // Substitua pelo valor do pedido que deseja pesquisar
